@@ -1,6 +1,6 @@
-class configuration():
+class Configuration:
     # *******************************Driver Option*****************************************#
-    headless = False
+    headless = True
     driver = ''
     wait = ''
 
