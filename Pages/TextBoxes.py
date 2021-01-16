@@ -3,13 +3,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 from utils.util import GenericFunctions as GF
 
 
-class Element:
+class TextBoxes:
     func_name = GF.whoami
     current_time = GF.current_time
 
     def __init__(self, driver):
         self.driver = driver
-        self.text_box_elem_xpath = "//*[@id='item-0']/span[contains(text(),'Text Box1')]"
+        self.text_box_elem_xpath = "//*[@id='item-0']/span[contains(text(),'Text Box')]"
         self.full_name_xpath = "//*[@id='userName']"
         self.email_id_xpath = "//*[@id='userEmail']"
         self.current_address_id = "currentAddress"
